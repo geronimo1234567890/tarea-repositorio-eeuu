@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Precio de Gasolina</title>
+</head>
+<body>
+<h1>Precio Promedio Nacional de Gasolina Regular</h1>
+<p th:text="'Fecha del dato: ' + ${gasPrice.date}"></p>
+<p th:text="'Precio por galón: $' + ${gasPrice.price}"></p>
+</body>
+</html>
